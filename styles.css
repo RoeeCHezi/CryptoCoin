@@ -1,0 +1,234 @@
+/*Background Image*/
+#backgroundImg {
+    background-image: url("crypto1.png");
+    background-size: cover;  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+/*NavBar*/
+.nav-bar{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+}
+
+.home-btn{
+    font-weight: bold;
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+/*Coin Display*/
+#showCoins{
+    margin-left: 6px;
+}
+
+/*Coin Container Background*/
+.coins-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    background-color: rgb(53, 89, 99);
+}
+
+/*Coin Card & Coin Card Info*/
+.coin-card{
+    display: inline-block; 
+    width: 250px;    
+    border: solid black 2px;
+    background-image: linear-gradient(to left, rgb(53, 89, 99), rgb(215, 142, 16));
+    margin: 30px;     
+    min-height: 165px;
+    border-radius: 20px;
+    padding: 1px;
+}
+
+.symbol{
+    margin-left: 108px;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.coin-body{
+    padding: 5px;
+    overflow: auto;
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+/*Toggle Button*/
+.toggle-button{
+    float: right;
+}
+
+/*More Info Container*/
+.more-info-div{
+    min-height: 190px;
+    width: 246px;
+    margin: 4% 0% 5% 0%;
+}
+
+.more-price-div{
+    margin: 0% 0% 13% 25%;
+    font-weight: bold;
+}
+
+#coin-img{
+    margin: 6% 0% 9% 33%;
+    max-height: 83px;
+} 
+
+.more-info-btn {
+    background-image: linear-gradient(to right, #517fa4 0%, #243949  51%, #517fa4  100%)
+}
+
+.more-info-btn {
+    margin: 10px;
+    padding: 5px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.more-info-btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+/*Small Loading Gif*/
+.loading {
+    background: rgba(0,0,0,0.4);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.loading-gif {
+    margin: 20%;
+}
+
+/*About Page*/
+#aboutBody{
+    margin-top: 56px;
+    text-align: center;
+    background-color: rgb(53, 89, 99);
+    color: white;
+    padding: 5%;
+}
+
+#aboutBtn{
+margin-right: 10px;
+}
+
+#aboutImg{
+    border-radius: 100%;
+    width: 150px;
+    border: solid;
+    border-color: black;
+    border-width: 3px;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+.form-control {
+    width: 200px;
+    margin: 5px;
+}
+
+.form-switch {
+    padding-left: 0;
+}
+
+.form-switch .form-check-input {
+    background-color: #edeef0;
+}
+
+.form-check-input:checked {
+    background-color: rgb(88, 178, 208);
+}
+
+.form-check-input {
+    float: right;
+    margin-right: 5%;
+}
+
+/* Modal Content */
+.modal-content {
+    color: white;
+    border-radius: 7%;
+    padding: 1px;
+    width: 315px;
+    background-color: rgb(53, 89, 99);
+}
+
+.modal-coin {
+    border: 2px solid white;
+    padding: 10px;
+}
+
+/* Live Report Content */
+#charts-div-container{
+    max-width: 1000px;
+    height: 400px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.canvasjs-chart-canvas{
+    top: 100px;
+}
+
+/* Nav Buttons */
+#aboutBtn{
+    background-color: #212529;
+    border: none;
+    margin-right: 10px;
+}
+
+#title-button{
+    background-color: #212529;
+    border: none;
+}
+
+#live-report{
+    background-color: #212529;
+    border: none;
+}
+
+#homeBtn{
+    background-color: #212529;
+    border: none;
+}
+
+/* Loading Gif */
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+/* Body Background */
+body{
+    background-color: rgb(53, 89, 99);
+}
+
